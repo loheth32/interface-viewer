@@ -1,20 +1,27 @@
-# Interface Viewer
+# 📡 Interface Viewer Tool
 
-A simple Python tool to list system network interfaces, IP addresses, and basic status info using `psutil`.
+A Python-based CLI tool that displays detailed information about your system's network interfaces, including status, speed, duplex mode, MTU, IP addresses, and MAC addresses. It also logs all output to a timestamped `.txt` file for future analysis.
 
-## Features
-- Lists active network interfaces
-- Shows IP (IPv4/IPv6) addresses
-- Supports CLI output
+---
 
-## Requirements
+## 🔧 Features
+
+- ✅ Lists all network interfaces (e.g., `eth0`, `wlan0`, `lo`)
+- ✅ Displays:
+  - Interface status (UP/DOWN)
+  - Duplex mode (Full/Half)
+  - Speed (in Mbps)
+  - MTU (Maximum Transmission Unit)
+  - IPv4 and IPv6 addresses
+  - MAC address and broadcast info
+- ✅ Saves detailed logs to `logs/` folder with timestamps
+
+---
+
+## 📦 Dependencies
+
 - Python 3.x
-- `psutil`
+- `psutil` (install via pip)
 
-## Install dependencies
 ```bash
-pip install -r requirements.txt
-
-## 📸 Example Output
-
-![Screenshot](screenshot.png)
+pip install psutil

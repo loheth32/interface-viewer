@@ -1,0 +1,32 @@
+📡 Interface Viewer Tool
+🕒 Time: 2025-07-18_18-19-13
+============================================================
+
+🔌 Interface: lo
+  🔄 Status       : UP
+  ↕️  Duplex       : 0  (0=Unknown, 1=Half, 2=Full)
+  🚀 Speed        : 0 Mbps
+  📦 MTU          : 65536
+  🌐 IPv4 Address : 127.0.0.1
+  🧾 Netmask      : 255.0.0.0
+  📢 Broadcast IP : None
+  🧬 IPv6 Address : ::1
+------------------------------------------------------------
+
+🔌 Interface: wlan0
+  🔄 Status       : UP
+  ↕️  Duplex       : 0  (0=Unknown, 1=Half, 2=Full)
+  🚀 Speed        : 0 Mbps
+  📦 MTU          : 1500
+  🌐 IPv4 Address : 10.10.39.217
+  🧾 Netmask      : 255.255.224.0
+  📢 Broadcast IP : 10.10.63.255
+  🧬 IPv6 Address : fe80::a0b9:875e:6e43:f2e7%wlan0
+------------------------------------------------------------
+
+🔌 Interface: eth0
+  🔄 Status       : DOWN
+  ↕️  Duplex       : 0  (0=Unknown, 1=Half, 2=Full)
+  🚀 Speed        : 0 Mbps
+  📦 MTU          : 1500
+------------------------------------------------------------
