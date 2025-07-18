@@ -14,3 +14,7 @@ A simple Python tool to list system network interfaces, IP addresses, and basic 
 ## Install dependencies
 ```bash
 pip install -r requirements.txt
+
+## 📸 Example Output
+
+![Screenshot](screenshot.png)
